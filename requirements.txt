@@ -1,0 +1,9 @@
+streamlit_option_menu
+openpyxl
+plotly
+yfinance 
+supabase
+pycountry
+phonenumbers
+
+
