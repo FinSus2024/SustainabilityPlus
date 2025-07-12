@@ -2312,7 +2312,7 @@ def main_app():
             button_cols = st.columns(2)
 
             with button_cols[0]:
-                if  st.button('**Q1 2025**', type= 'primary'):
+                if  st.button('**Q1 2025**', type= 'primary', disabled=True):
                     pass
             with button_cols[1]:
                 if  st.button('**Sign Out**', type= 'primary'):
