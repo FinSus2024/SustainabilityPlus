@@ -2312,27 +2312,8 @@ def main_app():
             button_cols = st.columns(2)
 
             with button_cols[0]:
-                st.markdown(
-                    """
-                    <div style="
-                    background-color: #f1f1f1 ;
-                    height: auto;
-                    width: 100%;
-                    z-index: 1000 ! important;
-                    border-radius: 27px;
-                    color: #000;
-                    padding:3px;
-                    align-items: center;
-                    text-align: center; 
-                    font-weight: bold;
-                    font-size: 1.25rem;
-                    border: 1px solid #ccc ;
-                    font-family: 'Outfit', sans-serif;">
-                    Q1 2025
-                    </div>
-                    """,
-                    unsafe_allow_html=True
-                )
+                if  st.button('**Q1 2025**', type= 'primary'):
+                    temp_show_notification( 'Signed out successfully.', 'rgb(0, 45, 128)' )
             with button_cols[1]:
                 if  st.button('**Sign Out**', type= 'primary'):
                     temp_show_notification( 'Signed out successfully.', 'rgb(0, 45, 128)' )
