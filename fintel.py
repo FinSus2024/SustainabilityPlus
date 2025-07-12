@@ -2313,7 +2313,7 @@ def main_app():
 
             with button_cols[0]:
                 if  st.button('**Q1 2025**', type= 'primary'):
-                    temp_show_notification( 'Signed out successfully.', 'rgb(0, 45, 128)' )
+                    pass
             with button_cols[1]:
                 if  st.button('**Sign Out**', type= 'primary'):
                     temp_show_notification( 'Signed out successfully.', 'rgb(0, 45, 128)' )
